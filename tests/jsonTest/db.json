@@ -1,0 +1,63 @@
+{
+    "products":[{
+    "ID": 1,
+    "title": "prod 1",
+    "category":"electri",
+    "price":4000,
+    "description" : "sadasdasdasdasd"
+    },
+    {
+        "ID": 2,
+        "title": "prod 2",
+        "category":"electri",
+        "price":1000,
+        "description" : "1sadasdasdasdasd"
+        },
+        {
+            "ID": 3,
+            "title": "prod 3",
+            "category":"electri",
+            "price":4000,
+            "description" : "2sadasdasdasdasd"
+            },
+            {
+                "ID": 4,
+                "title": "prod 4",
+                "category":"electri",
+                "price":9000,
+                "description" : "3sadasdasdasdasd"
+                },
+                {
+                    "ID": 5,
+                    "title": "prod 5",
+                    "category":"electri",
+                    "price":2000,
+                    "description" : "4sadasdasdasdasd"
+                    }
+
+    ],
+    "reviews":[
+        {
+            "id":1,
+            "rating":2,
+            "coment": "review 1 for product id 1",
+            "productId":1
+        }, {
+            "id":2,
+            "rating":2,
+            "coment": "review 2 for product id 1",
+            "productId":1
+        }, {
+            "id":3,
+            "rating":2,
+            "coment": "review 2 for product id 1",
+            "productId":2
+        },
+        {
+            "id":4,
+            "rating":2,
+            "coment": "review 2 for product id 1",
+            "productId":3
+        }
+    ]
+}

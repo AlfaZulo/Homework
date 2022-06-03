@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <head>
+        <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    </head>
+    <body>
+      <button class="getDataBtn">Get data</button>
+      <div class="output"></div>
+    </body>
+
+    <script>
+        $(".getDataBtn").click(function(){
+  $.get(dataURL, function(data, status){
+    // do something with data:
+    $(".output").html(data);
+  });
+});
+    </script>
+</html>
